@@ -3,3 +3,4 @@ import os
 
 df = pd.read_csv("./titanic-2.csv")
 df.head(5)
+print(df.PassengerId)
